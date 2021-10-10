@@ -10,6 +10,8 @@ const readFile = (filePath: string): string => {
   return input;
 }
 // 本番用
+// import * as fs from 'fs';
 // const input = fs.readFileSync("/dev/stdin", "utf8");
-
+// const main(input: string) => {...}
+// main(input)
 main();
