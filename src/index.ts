@@ -1,8 +1,10 @@
 import * as fs from 'fs';
 import { A_221 } from "./ABC/221/A";
+import { B_221 } from './ABC/221/B';
 
 const main = () => {
   A_221(readFile('src/test/ABC/221/A.txt'));
+  B_221(readFile('src/test/ABC/221/B.txt'));
 }
 
 const readFile = (filePath: string): string => {
