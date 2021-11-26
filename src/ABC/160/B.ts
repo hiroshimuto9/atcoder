@@ -12,3 +12,10 @@ export const B_160 = (input: string) => {
   const total = fiveH * 1000 + five * 5;
   console.log(total);
 }
+
+// 別回
+// 入力値を500で割った商、入力値を500で割った余り、その余りを5で割った商を元に計算する
+// const coin500 = Math.floor(X / 500);
+// const mod = X % 500;
+// const coin5 = Math.floor(mod / 5);
+// const res = coin500 * 1000 + coin5 * 5;
