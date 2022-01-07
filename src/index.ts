@@ -230,6 +230,7 @@ import { A_107 } from './ABC/107/A';
 import { A_106 } from './ABC/106/A';
 import { A_105 } from './ABC/105/A';
 import { B_105 } from './ABC/105/B';
+import { A_104 } from './ABC/104/A';
 
 const main = () => {
   A_221(readFile('src/test/ABC/221/A.txt'));
@@ -464,6 +465,7 @@ const main = () => {
   A_106(readFile('src/test/ABC/106/A.txt'));
   A_105(readFile('src/test/ABC/105/A.txt'));
   B_105(readFile('src/test/ABC/105/B.txt'));
+  A_104(readFile('src/test/ABC/104/A.txt'));
 }
 
 const readFile = (filePath: string): string => {
