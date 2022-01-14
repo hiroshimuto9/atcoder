@@ -247,6 +247,7 @@ import { B_098 } from './ABC/098/B';
 import { A_097 } from './ABC/097/A';
 import { B_097 } from './ABC/097/B';
 import { A_096 } from './ABC/096/A';
+import { B_096 } from './ABC/096/B';
 
 const main = () => {
   A_221(readFile('src/test/ABC/221/A.txt'));
@@ -498,6 +499,7 @@ const main = () => {
   A_097(readFile('src/test/ABC/097/A.txt'));
   B_097(readFile('src/test/ABC/097/B.txt'));
   A_096(readFile('src/test/ABC/096/A.txt'));
+  B_096(readFile('src/test/ABC/096/B.txt'));
 }
 
 const readFile = (filePath: string): string => {
